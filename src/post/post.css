@@ -1,0 +1,12 @@
+.post_item {
+    border-bottom: solid 1px #18213f;
+}
+
+.author {
+    color: #eaebec;
+    padding: 5px 10px 10px 10px;
+}
+.content {
+    color: #a0a0a1;
+    padding: 5px 10px 10px 10px;
+}

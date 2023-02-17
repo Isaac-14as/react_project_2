@@ -1,0 +1,13 @@
+.main {
+    background-color: #091221;
+    height: 60px;
+    color: #c8cacc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 23px;
+}
+
+
+
+
