@@ -1,8 +1,7 @@
-// import logo from './logo.svg';
 import './App.css';
-import Header from './header/header'
-import LeftNavbar from './left_navbar/left_navbar'
-import Post from './post/post'
+import Header from './components/header/header'
+import LeftNavbar from './components/left_navbar/left_navbar'
+import Post from './components/post/post'
 
 function App() {
   return (
@@ -16,12 +15,6 @@ function App() {
         <Post />
         <Post />
         <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />  
       </div>
     </div>
   );
