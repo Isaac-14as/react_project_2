@@ -1,10 +1,12 @@
 import React from "react";
 import "./post.css";
+import { Link } from 'react-router-dom';
 
 const Post = (props) => {
+    let path = "/dialogs/" + props.id;
     return (
         <div className="post_item">
-            <div className="author">{props.author}</div>
+            <Link to={path} className="author">{props.author}</Link>
             <div className="content">{props.content}</div>
         </div>
     )
